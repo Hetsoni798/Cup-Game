@@ -2,8 +2,8 @@
 $(document).ready(function () {
     // Constants for cup images
     const CUPS = [
-        "/img/blue.jpeg",    // Blue (0)
-        "/img/green.jpeg",   // Green (1)
+        ""https://raw.githubusercontent.com/Hetsoni798/Cup-Game/refs/heads/main/img/blue.jpeg",    // Blue (0)
+        ""https://raw.githubusercontent.com/Hetsoni798/Cup-Game/refs/heads/main/img/green.jpeg",   // Green (1)
         "/img/purple.jpeg",  // Purple (2)
         "/img/red.jpeg",     // Red (3)
         "/img/yellow.jpeg"   // Yellow (4)
