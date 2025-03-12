@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: #1a1a1a; /* Slightly lighter black for better contrast */
+    background: #1a1a1a; /* Default background */
     margin: 0;
     padding: 20px;
     min-height: 100vh;
@@ -9,6 +9,7 @@ body {
     align-items: center;
     flex-direction: column;
     color: #ffffff;
+    transition: background-color 0.5s ease; /* Smooth transition for background change */
 }
 
 header h1 {
@@ -16,7 +17,7 @@ header h1 {
     color: #ffffff;
     font-size: 3em;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-weight: 700;
 }
 
@@ -42,10 +43,10 @@ main h2 {
 #exchanges, #correct {
     color: #ffffff;
     font-size: 1.5em;
-    background: rgba(255, 255, 255, 0.15); /* Slightly more opaque background */
+    background: rgba(255, 255, 255, 0.15);
     padding: 12px 24px;
-    border-radius: 15px; /* Softer corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -93,17 +94,17 @@ button:active {
 #targetRow, #sectionAlign {
     display: flex;
     justify-content: center;
-    gap: 15px; /* Increased gap for better spacing */
+    gap: 15px;
     flex-wrap: nowrap;
     max-width: 600px;
-    margin: 15px auto; /* Increased margin for breathing room */
-    transition: opacity 0.5s ease; /* Smooth fade for reveal */
+    margin: 15px auto;
+    transition: opacity 0.5s ease;
 }
 
 #targetRow section, #sectionAlign section {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
-    padding: 12px; /* Increased padding */
+    padding: 12px;
     transition: all 0.3s ease;
     cursor: pointer;
     position: relative;
@@ -112,7 +113,7 @@ button:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid transparent; /* Add border for hover effect */
+    border: 2px solid transparent;
 }
 
 #targetRow section {
@@ -122,12 +123,12 @@ button:active {
 
 #sectionAlign section:hover {
     transform: scale(1.1);
-    border-color: #4CAF50; /* Green border on hover */
+    border-color: #4CAF50;
     background: rgba(255, 255, 255, 0.2);
 }
 
 #sectionAlign section.selected {
-    background: #ffeb3b; /* Bright yellow for selected cup */
+    background: #ffeb3b;
     transform: scale(1.15);
     border-color: #ffca28;
     box-shadow: 0 0 10px rgba(255, 235, 59, 0.5);
@@ -138,7 +139,7 @@ img {
     transition: all 0.3s ease;
     width: 100%;
     height: auto;
-    max-height: 100px; /* Ensure consistent height */
+    max-height: 100px;
 }
 
 /* Responsive Design */
