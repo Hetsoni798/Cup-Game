@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>CUP ORDER MATCH CHALLENGE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="game.js"></script>
+</head>
+<body>
+    <header>
+        <h1>CUP ORDER MATCH CHALLENGE</h1>
+    </header>
+    <main>
+        <h2>MATCH THE HIDDEN ORDER</h2>
+        <div id="stats">
+            <h3 id="exchanges">Exchanges: 0</h3>
+            <h3 id="correct">Cup Challenge: 0 correct</h3>
+        </div>
+        <div id="buttonsAlign">
+            <button onclick="gameStart()" id="startButton">START GAME</button>
+            <button onclick="revealTarget()" id="revealButton">REVEAL TARGET</button>
+        </div>
+        <div id="targetRow" style="display: none;">
+            <section id="target1">
+                <img id="targetImg1" src="/img/blue.jpeg" width="100" height="100" alt="blue cup">
+            </section>
+            <section id="target2">
+                <img id="targetImg2" src="/img/green.jpeg" width="100" height="100" alt="green cup">
+            </section>
+            <section id="target3">
+                <img id="targetImg3" src="/img/purple.jpeg" width="100" height="100" alt="purple cup">
+            </section>
+            <section id="target4">
+                <img id="targetImg4" src="/img/red.jpeg" width="100" height="100" alt="red cup">
+            </section>
+            <section id="target5">
+                <img id="targetImg5" src="/img/yellow.jpeg" width="100" height="100" alt="yellow cup">
+            </section>
+        </div>
+        <div id="sectionAlign">
+            <section id="cup1" onclick="selectCup(1)">
+                <img id="cupImg1" src="/img/blue.jpeg" width="100" height="100" alt="blue cup">
+            </section>
+            <section id="cup2" onclick="selectCup(2)">
+                <img id="cupImg2" src="/img/green.jpeg" width="100" height="100" alt="green cup">
+            </section>
+            <section id="cup3" onclick="selectCup(3)">
+                <img id="cupImg3" src="/img/purple.jpeg" width="100" height="100" alt="purple cup">
+            </section>
+            <section id="cup4" onclick="selectCup(4)">
+                <img id="cupImg4" src="/img/red.jpeg" width="100" height="100" alt="red cup">
+            </section>
+            <section id="cup5" onclick="selectCup(5)">
+                <img id="cupImg5" src="/img/yellow.jpeg" width="100" height="100" alt="yellow cup">
+            </section>
+        </div>
+    </main>
+</body>
+</html>
