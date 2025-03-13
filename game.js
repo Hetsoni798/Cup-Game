@@ -3,10 +3,10 @@ $(document).ready(function () {
     // Constants for cup images
     const CUPS = [
         "https://raw.githubusercontent.com/Hetsoni798/Cup-Game/refs/heads/main/img/blue.jpeg",    // Blue (0)
-        "https://raw.githubusercontent.com/Hetson1798/Cup-Game/main/img/blue.jpeg",   // Green (1)
-        "https://raw.githubusercontent.com/Hetson1798/Cup-Game/main/img/blue.jpeg",  // Purple (2)
-        "https://raw.githubusercontent.com/Hetson1798/Cup-Game/main/img/blue.jpeg",     // Red (3)
-        "https://raw.githubusercontent.com/Hetson1798/Cup-Game/main/img/blue.jpeg"   // Yellow (4)
+        "https://raw.githubusercontent.com/Hetsoni798/Cup-Game/refs/heads/main/img/green.jpeg",   // Green (1)
+        "https://raw.githubusercontent.com/Hetsoni798/Cup-Game/refs/heads/main/img/purple.jpeg",  // Purple (2)
+        "https://raw.githubusercontent.com/Hetsoni798/Cup-Game/refs/heads/main/img/red.jpeg",     // Red (3)
+        "https://raw.githubusercontent.com/Hetsoni798/Cup-Game/refs/heads/main/img/yellow.jpeg"   // Yellow (4)
     ];
 
     // Game state
